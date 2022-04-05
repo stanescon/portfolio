@@ -1,0 +1,35 @@
+.card-project{
+  padding: 10px;
+  width: 320px;
+  border-radius: 20px;
+  border: 2px solid #eace4d;
+  color: #ffffff;
+  box-shadow: 1px 1px 1px #000000;
+}
+.card-project:hover{
+  cursor: pointer;
+}
+.description{
+  margin: 20px 0;
+  text-align: center;
+  color: #f56e6c;
+}
+.info{
+  padding: 20px 0;
+}
+.title{
+  color: #f56e6c;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000000;
+  margin: 25px 0;
+  padding-bottom: 15px;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(90deg, #232325, #ffffff, #232325) 1;
+}
+a {
+  color: #eace4d;
+  text-decoration: none;
+}
+a:hover{
+  color: #f56e6c;
+}

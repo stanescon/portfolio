@@ -10,6 +10,7 @@
   background: #f56e6c;
   border-radius: 0 0 15px 15px;
   padding: 0 20px;
+  z-index: 1;
 }
 .navigation{
   display: flex;

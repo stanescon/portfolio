@@ -1,0 +1,10 @@
+<div class="content">
+  <h1 class="title">Projetos</h1>
+  <div class="cards">
+    <app-card-project *ngFor="let project of projectsInformation"
+    [title]="project.name" [id]="project.id" [image]="project.image" [descriptionHidden]="project.description"
+    [linkRepositorio]="project.linkRepositorio" [linkPagina]="project.linkPage"
+    ></app-card-project>
+  </div>
+</div>
+

@@ -1,3 +1,10 @@
+.main-title{
+  margin: 30px 0;
+  text-align: center;
+  color: #f56e6c;
+  font-size: 3.5em;
+  text-shadow: 1px 1px 1px #000000;
+}
 .content{
   width: 70%;
   margin: 0 auto;
