@@ -58,6 +58,9 @@
   background: #232325;
   color: #ffffff;
 }
+.curriculum:hover{
+  cursor: pointer;
+}
 
 @media screen and (max-width: 1200px){
   .navigation{
