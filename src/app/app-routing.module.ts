@@ -1,3 +1,4 @@
+import { FooterComponent } from './component/footer/footer.component';
 import { CardProjectComponent } from './component/card-project/card-project.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { SkillsComponent } from './pages/skills/skills.component';
@@ -11,7 +12,8 @@ const routes: Routes = [
   {path: 'about-me', component: AboutMeComponent},
   {path: 'skills', component: SkillsComponent},
   {path: 'projects', component: ProjectsComponent},
-  {path: 'card-project', component: CardProjectComponent}
+  {path: 'card-project', component: CardProjectComponent},
+  {path: 'footer', component: FooterComponent}
 ];
 
 @NgModule({

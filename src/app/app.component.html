@@ -1,12 +1,12 @@
 <div class="header">
-  <nav *ngIf="width > 1200" class="navigation">
+  <nav [ngClass]="{'menu-ativo': menuAtivo}" class="navigation">
     <a href="#home" class="home">Início</a>
     <a href="#about-me" class="about-me">Sobre mim</a>
     <a href="#skills" class="skills">Habilidades</a>
     <a href="#projects" class="projects">Projetos</a>
-    <a href="#" class="contact">Contato</a>
+    <a href="#contact" class="contact">Contato</a>
   </nav>
-  <button *ngIf="width <= 1200" class="menu">
+  <button (click)="menu()" *ngIf="width <= 1200" class="menu">
     <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#ffffff" class="bi bi-list" viewBox="0 0 16 16">
       <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
     </svg>
@@ -29,4 +29,5 @@
 <app-about-me id="about-me"></app-about-me>
 <app-skills id="skills"></app-skills>
 <app-projects id="projects"></app-projects>
+<app-footer id="contact"></app-footer>
 

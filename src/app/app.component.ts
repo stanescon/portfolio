@@ -8,4 +8,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'portifolio';
   width: number = window.innerWidth
+  menuAtivo = false
+
+  menu(){
+    if(this.menuAtivo){
+      this.menuAtivo = false
+    } else {
+      this.menuAtivo = true
+    }
+  }
 }

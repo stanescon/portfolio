@@ -1,6 +1,7 @@
 .content{
   background: #323234;
   padding: 100px;
+  padding-top: 180px;
   display: flex;
   gap: 30px;
   align-items: center;

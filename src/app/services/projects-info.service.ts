@@ -46,6 +46,14 @@ export class ProjectsInfoService {
       linkRepositorio: 'https://github.com/stanescon/challenge-time-tracking',
       linkPage: 'https://stanescon.github.io/challenge-time-tracking/'
     },
+    {
+      id: '006',
+      name: 'Quizzes',
+      image: 'quizzes.jpg',
+      description: "Esse projeto foi feito em Angular 13 para um processo seletivo de dev front-end. Se trata de um CRUD de quizzes e foi utilizado uma API oferecida pela empresa responsavel pelo processo seletivo. Para testar faça o login com o email 'profdev@tindin.com.br' e a senha '123'.",
+      linkRepositorio: 'https://github.com/stanescon/teste-quizzes',
+      linkPage: 'https://teste-quizzes.herokuapp.com/'
+    }
   ]
 
   constructor() { }
