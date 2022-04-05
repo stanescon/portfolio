@@ -1,0 +1,39 @@
+.content{
+  background: #323234;
+  padding: 100px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.title{
+  font-size: 3.5em;
+  text-align: center;
+  color: #eace4d;
+  text-shadow: 1px 1px 1px #000000;
+}
+.description{
+  font-size: 1.2em;
+  text-indent: 25px;
+  margin: 15px 0;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1200px){
+  .content{
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+  }
+  .image{
+    text-align: center;
+  }
+  .avatar{
+    width: 70%;
+  }
+  .title{
+    font-size: 3em;
+  }
+  .description{
+    text-align: center;
+  }
+}

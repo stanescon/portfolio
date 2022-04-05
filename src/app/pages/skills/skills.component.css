@@ -1,0 +1,45 @@
+.content{
+  width: 70%;
+  margin: 0 auto;
+  padding: 100px 0;
+  display: flex;
+  gap: 50px;
+}
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  gap: 30px;
+}
+.icon{
+  width: 80px;
+  opacity: 0.5;
+}
+.icon:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+.active{
+  opacity: 1;
+  filter:drop-shadow(1px 1px 1px #000000);
+}
+.title{
+  color: #eace4d;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(90deg, #232325, #ffffff, #232325) 1;
+  margin-bottom: 30px;
+}
+.description{
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1200px){
+  .content{
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+  .description{
+    margin-bottom: 20px;
+  }
+}
