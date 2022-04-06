@@ -32,7 +32,7 @@ export class ProjectsInfoService {
     },
     {
       id: '002',
-      name: 'Alura-challeng',
+      name: 'Alura-challenge',
       image: 'alura-challenge.jpg',
       description: 'Alura Challenge Front-End (3ª Edição): Criando uma loja virtual / (Passando o projeto pra Angular)',
       linkRepositorio: 'https://github.com/stanescon/Alura-challenge',
